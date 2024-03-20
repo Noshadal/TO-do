@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+input{
+    margin: 10px;
+    padding: 3px;
+    /* border: none; */
+    border-radius: 7px;
+}
+
+.main{
+    height: 100vh;
+    background-color: rgb(206, 214, 214);
+    width: 100vw;
+   text-align: center ; display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    /* justify-content: center; */
+}
+.con{
+    background-image: url(./download.jpeg);
+    background-repeat: no-repeat;
+    /* filter: opacity(.6);/ */
+    /* filter: brightness(.7); */
+    background-size: cover;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* justify-content: center; */
+    border: 2px solid gray;
+    align-items: center;
+    width: 50%;
+    margin: 10px;
+}
+
+.ad{
+    width: 20%;
+    font-size: 17px;
+    color: azure;
+    background: #00ffc8;
+    background: linear-gradient(90deg,#00ffc8 0%, #0078dc 40%, #178fa4 40%, #009dff 40%, #78a778 80%);
+    background: -webkit-linear-gradient(90deg,#00ffc8 0%, #0078dc 40%, #178fa4 40%, #009dff 40%, #78a778 80%);
+    background: -moz-linear-gradient(90deg,#00ffc8 0%, #0078dc 40%, #178fa4 40%, #009dff 40%, #78a778 80%);
+}
+#rest{
+    min-width: 13%;
+    font-size: 17px;
+    color: azure;
+    background: #00ffc8;
+    background: linear-gradient(90deg,#00ffc8 0%, #0078dc 40%, #178fa4 40%, #009dff 40%, #78a778 80%);
+    background: -webkit-linear-gradient(90deg,#00ffc8 0%, #0078dc 40%, #178fa4 40%, #009dff 40%, #78a778 80%);
+    background: -moz-linear-gradient(90deg,#00ffc8 0%, #0078dc 40%, #178fa4 40%, #009dff 40%, #78a778 80%);
+}
+.btn{
+  height: 1.3rem;
+  border-radius: 50%;
+  width: 1.3rem;
+  background-color:rgb(46, 35, 35);
+  color: white;
+}
+#output{
+    font-size: 20px;
+    background-color: #0000003d;
+    width: 50%;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    justify-content: space-around;
+    color: #ffffff;
+    text-align: center;
+    overflow: auto;
+    /* overflow-y: scroll; */
+}
+button:hover{
+    filter: brightness(.7);
+}
